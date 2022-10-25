@@ -13,9 +13,9 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/argoproj/argo-rollouts.git
+    repoURL: https://github.com/andytsio/gitops-certification-examples.git
     targetRevision: HEAD
-    path: ./releases/latest/download/
+    path: ./argo-rollouts-controller
    
     # directory
     directory:
